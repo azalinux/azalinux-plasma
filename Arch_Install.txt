@@ -29,15 +29,15 @@ azalinux
 # useradd -m newusername (I used derek)
 # passwd yourusername
 # usermod -aG wheel,audio,video,optical,storage,sys yourusername
-# visudo [uncomment "Wheel root access"]
+
 # pacman -S grub
 # grub-install /dev/sda
 # grub-mkconfig -o /boot/grub/grub.cfg
-# pacman -S xorg
 # pacman -S base-devel
+# visudo [uncomment "Wheel root access"]
 # pacman -S git
 # pacman -S dhcpcd [needs to be enabled too!]
-
+# pacman -S xorg
 # pacman -S plasma-meta
 Enable sddm and create /etc/sddm.conf.d/autlogin.conf  [and add aza to the sddm group in /etc/group]
 
