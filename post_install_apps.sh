@@ -11,4 +11,4 @@ pacman -S plasma-meta
 pacman -S kde-applications
 
 pacman -R konqueror
-pacman -R discover
+#pacman -R discover
