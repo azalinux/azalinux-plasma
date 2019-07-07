@@ -3,6 +3,7 @@ set -e
 
 yay -S pamac-aur
 yay -S vivaldi
+yay -S vivaldi-codecs-ffmpeg-extra-bin
 
 sudo pacman -S --noconfirm --needed xdg-user-dirs
 sudo pacman -S --noconfirm --needed wget
