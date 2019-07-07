@@ -10,4 +10,5 @@ pacman -S dhcpcd
 pacman -S plasma-meta
 pacman -S kde-applications
 
-
+pacman -R konqueror
+pacman -R discover
