@@ -8,4 +8,5 @@ pacman -S firefox-developer-edition
 pacman -S qbittorrent
 pacman -S neofetch
 pacman -S chromium
+pacman -S libreoffice-fresh
 
