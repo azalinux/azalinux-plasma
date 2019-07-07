@@ -28,7 +28,7 @@ azalinux
 # passwd
 # useradd -m newusername (I used derek)
 # passwd yourusername
-# usermod -aG wheel,audio,video,optical,storage yourusername
+# usermod -aG wheel,audio,video,optical,storage,sys yourusername
 # visudo [uncomment "Wheel root access"]
 # pacman -S grub
 # grub-install /dev/sda
