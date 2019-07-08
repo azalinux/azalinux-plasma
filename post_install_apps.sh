@@ -2,14 +2,18 @@
 
 set -e
 
-pacman -S base-devel
-pacman -S xorg
+pacman -S --noconfirm --needed base-devel
+pacman -S --noconfirm --needed xorg
 
-pacman -S git
-pacman -S dhcpcd
-pacman -S plasma-meta
-pacman -S kde-applications-meta
-pacman -S kde-gtk-config
+pacman -S --noconfirm --needed git
+pacman -S --noconfirm --needed dhcpcd
+pacman -S --noconfirm --needed plasma-meta
+pacman -S --noconfirm --needed kde-applications-meta
+pacman -S --noconfirm --needed kde-gtk-config
+pacman -S --noconfirm --needed grub-customizer 
 
-pacman -R konqueror
+
+
+
+#pacman -R konqueror
 #pacman -R discover
