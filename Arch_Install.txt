@@ -12,8 +12,8 @@ ARCH 2019 install commands:
 # arch-chroot /mnt
 # ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
 # hwclock --systohc
-# locale-gen
-
+# nano /etc/locale.gen [uncomment en_US.UTF-8 UTF8]
+#locale-gen
 # nano/etc/locale.conf
 LANG=en_US.UTF-8
 
