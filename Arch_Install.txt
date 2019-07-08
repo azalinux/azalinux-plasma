@@ -29,7 +29,8 @@ azalinux
 # useradd -m newusername (I used derek)
 # passwd yourusername
 # usermod -aG wheel,audio,video,optical,storage,sys yourusername
-
+# pacman -S xdg-user-dirs
+# xdg-user-dirs-update
 # pacman -S grub
 # grub-install /dev/sda
 # grub-mkconfig -o /boot/grub/grub.cfg
