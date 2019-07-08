@@ -5,8 +5,6 @@ yay -S --nodiffmenu --noeditmenu pamac-aur
 yay -S vivaldi
 yay -S vivaldi-codecs-ffmpeg-extra-bin
 
-sudo pacman -S --noconfirm --needed xdg-user-dirs
-xdg-user-dirs-update
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed net-tools
 sudo pacman -S --noconfirm --needed htop
