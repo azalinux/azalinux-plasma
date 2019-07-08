@@ -8,6 +8,7 @@ xdg-user-dirs-update
 pacman -S --noconfirm --needed base-devel
 pacman -S --noconfirm --needed xorg
 
+pacman -S --noconfirm --needed openssh
 pacman -S --noconfirm --needed git
 pacman -S --noconfirm --needed dhcpcd
 pacman -S --noconfirm --needed plasma-meta
