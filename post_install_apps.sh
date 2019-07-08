@@ -2,6 +2,9 @@
 
 set -e
 
+pacman -S --noconfirm --needed xdg-user-dirs
+xdg-user-dirs-update
+
 pacman -S --noconfirm --needed base-devel
 pacman -S --noconfirm --needed xorg
 
