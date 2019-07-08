@@ -20,9 +20,9 @@ sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj cabextract file-roller
 
 
-sudo pacman -S --no confirm --needed firefox-developer-edition
-sudo pacman -S --no confirm --needed qbittorrent
-sudo pacman -S --no confirm --needed neofetch
-sudo pacman -S --no confirm --needed chromium
-sudo pacman -S --no confirm --needed libreoffice-fresh
+sudo pacman -S --noconfirm --needed firefox-developer-edition
+sudo pacman -S --noconfirm --needed qbittorrent
+sudo pacman -S --noconfirm --needed neofetch
+sudo pacman -S --noconfirm --needed chromium
+sudo pacman -S --noconfirm --needed libreoffice-fresh
 
