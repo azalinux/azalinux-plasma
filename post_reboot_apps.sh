@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-yay -S --nodiffmenu --noeditmenu pamac-aur
+yay -S --nodiffmenu --noeditmenu --nocleanmenu --noupgragemenu pamac-aur
 yay -S vivaldi
 yay -S vivaldi-codecs-ffmpeg-extra-bin
 
