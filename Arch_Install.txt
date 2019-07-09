@@ -39,6 +39,10 @@ azalinux
 # visudo [uncomment "Wheel root access"] (to save type: :wq )
 # pacman -S git
 # pacman -S dhcpcd [needs to be enabled too!]
+================================================================
+reboot now
+================================================================
+
 # pacman -S xorg
 # pacman -S plasma-meta
 Enable sddm and create /etc/sddm.conf.d/autlogin.conf  [and add aza to the sddm group in /etc/group]
