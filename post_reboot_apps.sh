@@ -1,9 +1,11 @@
 #!/bin/bash
 set -e
 
-yay -S --nodiffmenu --noeditmenu --nocleanmenu --noupgragemenu pamac-aur
-yay -S vivaldi
-yay -S vivaldi-codecs-ffmpeg-extra-bin
+trizen -S --noconfirm pamac-aur
+trizen -S --noconfirm vivaldi
+trizen -S --noconfirm vivaldi-codecs-ffmpeg-extra-bin
+trizen -S --noconfirm realvnc-vnc-server
+trizen -S --noconfirm realvnc-vnc-viewer
 
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed net-tools
