@@ -6,32 +6,32 @@ set -e
 #xdg-user-dirs-update
 #pacman -S --noconfirm --needed base-devel
 
-pacman -S --noconfirm --needed xorg
-pacman -S --noconfirm --needed openssh
-pacman -S --noconfirm --needed git
-pacman -S --noconfirm --needed dhcpcd
-pacman -S --noconfirm --needed plasma-meta
+sudo pacman -S --noconfirm --needed xorg
+sudo pacman -S --noconfirm --needed openssh
+sudo pacman -S --noconfirm --needed git
+sudo pacman -S --noconfirm --needed dhcpcd
+sudo pacman -S --noconfirm --needed plasma-meta
 #pacman -S --noconfirm --needed kde-applications-meta
-pacman -S --noconfirm --needed kdeaccessibility-meta 
-pacman -S --noconfirm --needed kdeadmin-meta
-pacman -S --noconfirm --needed kdeedu-meta
-pacman -S --noconfirm --needed kdegames-meta
-pacman -S --noconfirm --needed kdegraphics-meta
-pacman -S --noconfirm --needed kdemultimedia-meta
-pacman -S --noconfirm --needed kdenetwork-meta
-pacman -S --noconfirm --needed kdepim-meta
-pacman -S --noconfirm --needed kdesdk-meta
-pacman -S --noconfirm --needed kdeutils-meta
-pacman -S --noconfirm --needed dolphin
-pacman -S --noconfirm --needed kate
-pacman -S --noconfirm --needed kdialog
-pacman -S --noconfirm --needed keditbookmarks
-pacman -S --noconfirm --needed kfind
-pacman -S --noconfirm --needed khelpcenter
-pacman -S --noconfirm --needed konsole
-pacman -S --noconfirm --needed kwrite
-pacman -S --noconfirm --needed kde-gtk-config
-pacman -S --noconfirm --needed grub-customizer 
+sudo pacman -S --noconfirm --needed kdeaccessibility-meta 
+sudo pacman -S --noconfirm --needed kdeadmin-meta
+sudo pacman -S --noconfirm --needed kdeedu-meta
+sudo pacman -S --noconfirm --needed kdegames-meta
+sudo pacman -S --noconfirm --needed kdegraphics-meta
+sudo pacman -S --noconfirm --needed kdemultimedia-meta
+sudo pacman -S --noconfirm --needed kdenetwork-meta
+sudo pacman -S --noconfirm --needed kdepim-meta
+sudo pacman -S --noconfirm --needed kdesdk-meta
+sudo pacman -S --noconfirm --needed kdeutils-meta
+sudo pacman -S --noconfirm --needed dolphin
+sudo pacman -S --noconfirm --needed kate
+sudo pacman -S --noconfirm --needed kdialog
+sudo pacman -S --noconfirm --needed keditbookmarks
+sudo pacman -S --noconfirm --needed kfind
+sudo pacman -S --noconfirm --needed khelpcenter
+sudo pacman -S --noconfirm --needed konsole
+sudo pacman -S --noconfirm --needed kwrite
+sudo pacman -S --noconfirm --needed kde-gtk-config
+sudo pacman -S --noconfirm --needed grub-customizer 
 
 
 
