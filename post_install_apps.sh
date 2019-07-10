@@ -8,7 +8,6 @@ set -e
 
 sudo pacman -S --noconfirm --needed xorg
 sudo pacman -S --noconfirm --needed openssh
-sudo pacman -S --noconfirm --needed git
 sudo pacman -S --noconfirm --needed dhcpcd
 sudo pacman -S --noconfirm --needed plasma-meta
 #pacman -S --noconfirm --needed kde-applications-meta
