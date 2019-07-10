@@ -29,6 +29,8 @@ azalinux
 # useradd -m newusername (I used derek)
 # passwd yourusername
 # usermod -aG wheel,audio,video,optical,storage,sys yourusername
+# nano /etc/pacman.d/mirrorlist [edit to use the Australia mirrors]
+# pacman -Syuu
 # pacman -S xdg-user-dirs
 # xdg-user-dirs-update
 # pacman -S grub
