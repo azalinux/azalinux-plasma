@@ -29,8 +29,8 @@ azalinux
 # useradd -m newusername (I used derek)
 # passwd yourusername
 # usermod -aG wheel,audio,video,optical,storage,sys yourusername
-# nano /etc/pacman.d/mirrorlist [edit to use the Australia mirrors]
-# pacman -Syuu
+# pacman -S git
+# run reflector.sh [from azalinux github]
 # pacman -S xdg-user-dirs
 # xdg-user-dirs-update
 # pacman -S grub
@@ -39,7 +39,6 @@ azalinux
 # pacman -S base-devel
 # pacman -S vim
 # visudo [uncomment "Wheel root access"] (to save type: :wq )
-# pacman -S git
 # pacman -S dhcpcd [needs to be enabled too!]
 ================================================================
 reboot now
