@@ -48,21 +48,12 @@ azalinux
 reboot now
 ================================================================
 
-# pacman -S xorg
-# pacman -S plasma-meta
 Enable sddm and create /etc/sddm.conf.d/autlogin.conf  [and add aza to the sddm group in /etc/group]
 
 After Rebooting into Fresh installed system:
 
-install yay
 yay -S pamac-aur
-yay -S vivaldi
 
-pacman -S firefox-developer-edition
-pacman -S qbittorrent
-pacman -S neofetch
-pacman -S chromium
-pacman -S libreoffice-fresh
 
 
 
