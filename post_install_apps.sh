@@ -32,6 +32,8 @@ sudo pacman -S --noconfirm --needed kwrite
 sudo pacman -S --noconfirm --needed kde-gtk-config
 sudo pacman -S --noconfirm --needed grub-customizer 
 
+sh sddm.sh
+
 trizen -S --noconfirm pamac-aur
 trizen -S --noconfirm vivaldi
 trizen -S --noconfirm vivaldi-codecs-ffmpeg-extra-bin
