@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S samba
+sudo pacman -S --noconfirm samba
 sudo mkdir /var/lib/samba/usershares
 sudo groupadd -r sambashare
 sudo chown root:sambashare /var/lib/samba/usershares
