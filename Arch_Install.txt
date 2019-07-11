@@ -40,10 +40,10 @@ azalinux
 # grub-mkconfig -o /boot/grub/grub.cfg
 # pacman -S base-devel
 # pacman -S vim
-# visudo [uncomment "Wheel root access"] (to save type: :wq )
 # pacman -S dhcpcd [needs to be enabled too!]
 ##############  end setup2.sh     #################
 
+# visudo [uncomment "Wheel root access"] {to save type    :wq }
 ================================================================
 reboot now
 ================================================================
