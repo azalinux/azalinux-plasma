@@ -48,11 +48,11 @@ azalinux
 reboot now
 ================================================================
 
+#run post_install_apps.sh
+
 Enable sddm and create /etc/sddm.conf.d/autlogin.conf  [and add aza to the sddm group in /etc/group]
 
-After Rebooting into Fresh installed system:
 
-yay -S pamac-aur
 
 
 
