@@ -36,6 +36,8 @@ sudo pacman -S --noconfirm --needed grub-customizer
 
 sh sddm.sh
 
+sh trizen.sh
+
 trizen -S --noconfirm pamac-aur
 trizen -S --noconfirm vivaldi
 trizen -S --noconfirm vivaldi-codecs-ffmpeg-extra-bin
