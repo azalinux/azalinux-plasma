@@ -1,6 +1,10 @@
 #!/bin/bash
 set -e
 
+
+
+locale-gen
+
 # nano/etc/locale.conf
 echo -n "LANG=en_US.UTF-8" >> /etc/locale.conf
 
