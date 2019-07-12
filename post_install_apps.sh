@@ -4,10 +4,6 @@ set -e
 
 sh cores.sh
 
-#pacman -S --noconfirm --needed xdg-user-dirs
-#xdg-user-dirs-update
-#pacman -S --noconfirm --needed base-devel
-
 sudo pacman -S --noconfirm --needed xorg
 sudo pacman -S --noconfirm --needed openssh
 sudo systemctl enable openssh
@@ -53,6 +49,8 @@ sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed libreoffice-fresh
 
 sh sddm.sh
+
+#sh samba_install.sh
 
 sh trizen.sh
 
