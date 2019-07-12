@@ -38,11 +38,11 @@ sh sddm.sh
 
 sh trizen.sh
 
-trizen -S --noconfirm pamac-aur
-trizen -S --noconfirm vivaldi
-trizen -S --noconfirm vivaldi-codecs-ffmpeg-extra-bin
-trizen -S --noconfirm realvnc-vnc-server
-trizen -S --noconfirm realvnc-vnc-viewer
+trizen -S --noconfirm --needed --noedit pamac-aur
+trizen -S --noconfirm --needed --noedit vivaldi
+trizen -S --noconfirm --needed --noedit vivaldi-codecs-ffmpeg-extra-bin
+trizen -S --noconfirm --needed --noedit realvnc-vnc-server
+trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed net-tools
