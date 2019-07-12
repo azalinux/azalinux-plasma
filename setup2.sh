@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-
+sed 's/'#en_US.UTF-8 UTF8'/'en_US.UTF-8 UTF8'/' /etc/locale.gen
 
 locale-gen
 
