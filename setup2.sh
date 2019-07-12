@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 echo "######## Check what hard drive you are installing on for grub ie sda, sdb ... and edit the 'grub-install' line !!!! #####"
 echo "########      Default is sda      ############"
 sleep 10
