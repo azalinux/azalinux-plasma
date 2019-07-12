@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+pacstrap /mnt base
 arch-chroot /mnt
 ln -sf /usr/share/zoneinfo/Australia/Brisbane /etc/localtime
 hwclock --systohc
