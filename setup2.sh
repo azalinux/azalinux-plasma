@@ -28,7 +28,7 @@ passwd
 useradd -m aza
 passwd aza
 usermod -aG wheel,audio,video,optical,storage,sys aza
-pacman -S --noconfirm --needed git
+#pacman -S --noconfirm --needed git
 sh reflector.sh
 pacman -S --noconfirm --needed xdg-user-dirs
 xdg-user-dirs-update
