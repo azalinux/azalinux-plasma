@@ -1,6 +1,14 @@
 #!/bin/bash
 set -e
 
+# nano /etc/hostname
+sudo echo "azalinux" >> /etc/hostname
+
+# nano /etc/hosts
+sudo echo -n "127.0.0.1 localhost" >> /etc/hosts
+sudo echo -n "::1       localhost" >> /etc/hosts
+sudo echo -n "127.0.1.1 myhostname.localdomain myhostname" >> /etc/hosts
+
 echo "######## Check what hard drive you are installing on for grub ie sda, sdb ... and edit the 'grub-install' line !!!! #####"
 echo "########      Default is sda      ############"
 sleep 10
