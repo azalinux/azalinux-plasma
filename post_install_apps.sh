@@ -2,6 +2,8 @@
 
 set -e
 
+sh cores.sh
+
 #pacman -S --noconfirm --needed xdg-user-dirs
 #xdg-user-dirs-update
 #pacman -S --noconfirm --needed base-devel
@@ -58,5 +60,3 @@ sudo pacman -S --noconfirm --needed qbittorrent
 sudo pacman -S --noconfirm --needed neofetch
 sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed libreoffice-fresh
-
-
