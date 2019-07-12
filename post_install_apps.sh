@@ -33,6 +33,7 @@ sudo pacman -S --noconfirm --needed konsole
 sudo pacman -S --noconfirm --needed kwrite
 sudo pacman -S --noconfirm --needed kde-gtk-config
 sudo pacman -S --noconfirm --needed grub-customizer 
+sudo pacman -S --noconfirm --needed wget
 
 sh sddm.sh
 
@@ -44,7 +45,6 @@ trizen -S --noconfirm --needed --noedit vivaldi-codecs-ffmpeg-extra-bin
 trizen -S --noconfirm --needed --noedit realvnc-vnc-server
 trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 
-sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed net-tools
 sudo pacman -S --noconfirm --needed htop
 sudo pacman -S --noconfirm --needed gtop
