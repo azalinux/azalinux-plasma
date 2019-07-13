@@ -65,7 +65,7 @@ trizen -S --noconfirm --needed --noedit realvnc-vnc-server
 trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 #trizen -S --noconfirm --needed --noedit vlc-nightly
 
-/usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
+sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
 
 systemctl enable vncserver-x11-serviced
 
