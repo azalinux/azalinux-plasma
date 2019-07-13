@@ -1,5 +1,6 @@
 #!/bin/bash -x
 set -e
+set -u
 sudo pacman -S --noconfirm samba
 sudo mkdir /var/lib/samba/usershares
 sudo groupadd -r sambashare
