@@ -8,9 +8,10 @@ ARCH 2019 install commands:
 # mkswap /dev/sda2 
 # swapon /dev/sda2
 # mount /dev/sda1 /mnt
-########      setup2.sh     ##############
 # pacstrap /mnt base
+# genfstab -U /mnt >> /mnt/etc/fstab
 # arch-chroot /mnt
+########      setup2.sh     ##############
 # ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
 # hwclock --systohc
 # nano /etc/locale.gen [uncomment en_US.UTF-8 UTF8]
