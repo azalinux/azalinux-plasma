@@ -4,6 +4,7 @@ set -e
 set -u
 
 sh cores.sh
+xdg-user-dirs-update
 
 sudo pacman -Syuu --noconfirm --needed
 sudo pacman -S --noconfirm --needed xorg
