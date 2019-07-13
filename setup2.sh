@@ -2,13 +2,13 @@
 set -e
 set -u
 
-pacstrap /mnt base
+#pacstrap /mnt base
 genfstab -U /mnt >> /mnt/etc/fstab
 arch-chroot /mnt
 ln -sf /usr/share/zoneinfo/Australia/Brisbane /etc/localtime
 hwclock --systohc
 
-sed 's/'#en_US.UTF-8 UTF8'/'en_US.UTF-8 UTF8'/' /etc/locale.gen
+sed 's/#en_US.UTF-8 UTF8/en_US.UTF-8 UTF8/' /etc/locale.gen
 
 locale-gen
 
