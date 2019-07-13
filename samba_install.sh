@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 set -e
 sudo pacman -S --noconfirm samba
 sudo mkdir /var/lib/samba/usershares
