@@ -3,8 +3,9 @@ set -e
 set -u
 
 #pacstrap /mnt base
-genfstab -U /mnt >> /mnt/etc/fstab
-arch-chroot /mnt
+#genfstab -U /mnt >> /mnt/etc/fstab
+#arch-chroot /mnt
+
 ln -sf /usr/share/zoneinfo/Australia/Brisbane /etc/localtime
 hwclock --systohc
 
