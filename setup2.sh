@@ -1,5 +1,6 @@
-#!/bin/bash
+#!/bin/bash -x
 set -e
+set -u
 
 pacstrap /mnt base
 arch-chroot /mnt
