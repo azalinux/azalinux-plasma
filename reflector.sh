@@ -3,5 +3,5 @@ set -e
 set -u
 
 pacman -S --noconfirm reflector
-reflector -c Australia --save /etc/pacman.d/mirrorlist
+reflector -c Australia -p http -p https --save /etc/pacman.d/mirrorlist
 
