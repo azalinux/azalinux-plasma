@@ -5,6 +5,7 @@ set -u
 
 sh cores.sh
 
+sudo pacman -Syuu --noconfirm --needed
 sudo pacman -S --noconfirm --needed xorg
 sudo pacman -S --noconfirm --needed openssh
 sudo systemctl enable openssh
