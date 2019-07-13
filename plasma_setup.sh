@@ -67,6 +67,8 @@ trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 
 sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
 
-systemctl enable vncserver-x11-serviced
+sudo systemctl enable vncserver-x11-serviced
+
+sudo systemctl enable NetworkManager
 
 
