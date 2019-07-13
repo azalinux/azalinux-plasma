@@ -1,6 +1,7 @@
-#!/bin/bash
+#!/bin/bash -x
 
 set -e
+set -u
 
 sh cores.sh
 
@@ -51,7 +52,7 @@ sudo pacman -S --noconfirm --needed mpv
 
 sh sddm.sh
 
-#sh samba_install.sh
+sh samba_install.sh
 
 sh trizen.sh
 
