@@ -8,6 +8,7 @@ ARCH 2019 install commands:
 # mkswap /dev/sda2 
 # swapon /dev/sda2
 # mount /dev/sda1 /mnt
+########      setup2.sh     ##############
 # pacstrap /mnt base
 # arch-chroot /mnt
 # ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
@@ -24,8 +25,6 @@ azalinux
 127.0.0.1 localhost
 ::1          localhost
 127.0.1.1 myhostname.localdomain myhostname
-================================================
-########      setup2.sh     ##############
 
 # passwd
 # useradd -m newusername (I used derek)
@@ -41,9 +40,10 @@ azalinux
 # pacman -S base-devel
 # pacman -S vim
 # pacman -S dhcpcd [needs to be enabled too!]
-##############  end setup2.sh     #################
 
 # visudo [uncomment "Wheel root access"] {to save type    :wq }
+
+##############  end setup2.sh     #################
 ================================================================
 reboot now
 ================================================================
