@@ -9,7 +9,7 @@ set -u
 ln -sf /usr/share/zoneinfo/Australia/Brisbane /etc/localtime
 hwclock --systohc
 
-sed 's/#en_US.UTF-8 UTF8/en_US.UTF-8 UTF8/' /etc/locale.gen
+sed 's/#en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen
 
 locale-gen
 
@@ -34,7 +34,6 @@ usermod -aG wheel,audio,video,optical,storage,sys aza
 #pacman -S --noconfirm --needed git
 sh reflector.sh
 pacman -S --noconfirm --needed xdg-user-dirs
-xdg-user-dirs-update
 pacman -S --noconfirm --needed grub
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
