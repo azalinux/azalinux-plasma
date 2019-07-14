@@ -51,7 +51,6 @@ sudo pacman -S --noconfirm --needed neofetch
 sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed libreoffice-fresh
 sudo pacman -S --noconfirm --needed mpv
-sudo pacman -S --noconfirm --needed inxi
 
 sh sddm.sh
 
@@ -65,6 +64,7 @@ trizen -S --noconfirm --needed --noedit vivaldi-codecs-ffmpeg-extra-bin
 trizen -S --noconfirm --needed --noedit realvnc-vnc-server
 trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 #trizen -S --noconfirm --needed --noedit vlc-nightly
+trizen -S --noconfirm --needed --noedit inxi-git
 
 sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
 
