@@ -7,6 +7,7 @@ sh cores.sh
 #xdg-user-dirs-update
 
 sudo pacman -Syuu --noconfirm --needed
+sudo pacman -S --noconfirm --needed arch-install-scripts
 sudo pacman -S --noconfirm --needed xorg
 sudo pacman -S --noconfirm --needed openssh
 sudo systemctl enable sshd
