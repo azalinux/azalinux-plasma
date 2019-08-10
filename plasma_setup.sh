@@ -9,17 +9,43 @@ sh cores.sh
 sudo pacman -Syuu --noconfirm --needed
 sudo pacman -S --noconfirm --needed arch-install-scripts
 sudo pacman -S --noconfirm --needed xorg
+sudo pacman -S --noconfirm --needed os-prober
 sudo pacman -S --noconfirm --needed openssh
 sudo systemctl enable sshd
 sudo pacman -S --noconfirm --needed dhcpcd
 sudo pacman -S --noconfirm --needed plasma-meta
 #pacman -S --noconfirm --needed kde-applications-meta
+
+sudo pacman -S --noconfirm --needed firewalld
 sudo pacman -S pulseaudio --noconfirm --needed
 sudo pacman -S pulseaudio-alsa --noconfirm --needed
 sudo pacman -S pavucontrol  --noconfirm --needed
 sudo pacman -S alsa-utils alsa-plugins alsa-lib alsa-firmware --noconfirm --needed
 sudo pacman -S gstreamer --noconfirm --needed
 sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly --noconfirm --needed
+
+sudo pacman -S adobe-source-sans-pro-fonts --noconfirm --needed
+sudo pacman -S cantarell-fonts --noconfirm --needed
+sudo pacman -S noto-fonts --noconfirm --needed
+sudo pacman -S terminus-font --noconfirm --needed
+sudo pacman -S ttf-bitstream-vera --noconfirm --needed
+sudo pacman -S ttf-dejavu --noconfirm --needed
+sudo pacman -S ttf-droid --noconfirm --needed
+sudo pacman -S ttf-inconsolata --noconfirm --needed
+sudo pacman -S ttf-liberation --noconfirm --needed
+sudo pacman -S ttf-roboto --noconfirm --needed
+sudo pacman -S ttf-ubuntu-font-family --noconfirm --needed
+sudo pacman -S tamsyn-font --noconfirm --needed
+
+sudo pacman -S --noconfirm --needed cups cups-pdf
+sudo pacman -S ghostscript gsfonts gutenprint --noconfirm --needed
+sudo pacman -S gtk3-print-backends --noconfirm --needed
+sudo pacman -S libcups --noconfirm --needed
+sudo pacman -S hplip --noconfirm --needed
+sudo pacman -S system-config-printer --noconfirm --needed
+
+sudo systemctl enable org.cups.cupsd.service
+
 sudo pacman -S --noconfirm --needed kdeaccessibility-meta 
 sudo pacman -S --noconfirm --needed kdeadmin-meta
 sudo pacman -S --noconfirm --needed kdeedu-meta
@@ -39,6 +65,20 @@ sudo pacman -S --noconfirm --needed khelpcenter
 sudo pacman -S --noconfirm --needed konsole
 sudo pacman -S --noconfirm --needed kwrite
 sudo pacman -S --noconfirm --needed kde-gtk-config
+
+sudo pacman -S --noconfirm --needed baobab
+sudo pacman -S --noconfirm --needed curl
+sudo pacman -S --noconfirm --needed dmidecode
+sudo pacman -S --noconfirm --needed glances
+sudo pacman -S --noconfirm --needed clamtk
+sudo pacman -S --noconfirm --needed brasero
+sudo pacman -S --noconfirm --needed sysstat
+sudo pacman -S --noconfirm --needed screenfetch
+sudo pacman -S --noconfirm --needed net-tools
+sudo pacman -S --noconfirm --needed lm_sensors
+sudo pacman -S --noconfirm --needed hexchat
+sudo pacman -S --noconfirm --needed gimp
+sudo pacman -S --noconfirm --needed ffmpegthumbnailer
 sudo pacman -S --noconfirm --needed grub-customizer 
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed net-tools
@@ -53,6 +93,7 @@ sudo pacman -S --noconfirm --needed meld
 sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj cabextract file-roller
 sudo pacman -S --noconfirm --needed firefox-developer-edition
+sudo pacman -S --noconfirm --needed thunderbird
 sudo pacman -S --noconfirm --needed qbittorrent
 sudo pacman -S --noconfirm --needed neofetch
 sudo pacman -S --noconfirm --needed chromium
@@ -72,8 +113,11 @@ trizen -S --noconfirm --needed --noedit realvnc-vnc-server
 trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 #trizen -S --noconfirm --needed --noedit vlc-nightly
 trizen -S --noconfirm --needed --noedit inxi-git
+trizen -S --noconfirm --needed --noedit qjournalctl 
 
-sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
+#sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
+
+#sh deepin_custom_setup.sh
 
 sudo systemctl enable vncserver-x11-serviced
 
