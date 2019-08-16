@@ -106,9 +106,12 @@ sh samba_install.sh
 
 sh trizen.sh
 
+echo "### Installing Vivaldi Snapshot ###"
+sh install-vivaldi.sh
+
 trizen -S --noconfirm --needed --noedit pamac-aur
-trizen -S --noconfirm --needed --noedit vivaldi
-trizen -S --noconfirm --needed --noedit vivaldi-codecs-ffmpeg-extra-bin
+#trizen -S --noconfirm --needed --noedit vivaldi
+#trizen -S --noconfirm --needed --noedit vivaldi-codecs-ffmpeg-extra-bin
 trizen -S --noconfirm --needed --noedit realvnc-vnc-server
 trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 #trizen -S --noconfirm --needed --noedit vlc-nightly
