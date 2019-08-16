@@ -102,9 +102,9 @@ sudo pacman -S --noconfirm --needed mpv
 
 sh sddm.sh
 
-sh wallpaper.sh
+#sh wallpaper.sh - can only be done after plasma desktop has started
 
-sh konsole_theme.sh
+# sh konsole_theme.sh - ""
 
 sh samba_install.sh
 
