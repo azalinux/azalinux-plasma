@@ -102,6 +102,10 @@ sudo pacman -S --noconfirm --needed mpv
 
 sh sddm.sh
 
+sh wallpaper.sh
+
+sh konsole_theme.sh
+
 sh samba_install.sh
 
 sh trizen.sh
