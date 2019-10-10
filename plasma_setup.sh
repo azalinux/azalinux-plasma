@@ -24,6 +24,16 @@ sudo pacman -S alsa-utils alsa-plugins alsa-lib alsa-firmware --noconfirm --need
 sudo pacman -S gstreamer --noconfirm --needed
 sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly --noconfirm --needed
 
+# installing bluetooth software
+sudo pacman -S --noconfirm --needed pulseaudio-bluetooth
+sudo pacman -S --noconfirm --needed bluez
+sudo pacman -S --noconfirm --needed bluez-libs
+sudo pacman -S --noconfirm --needed bluez-utils
+sudo pacman -S --noconfirm --needed blueberry
+
+sudo systemctl enable bluetooth.service
+sudo systemctl start bluetooth.service
+
 sudo pacman -S adobe-source-sans-pro-fonts --noconfirm --needed
 sudo pacman -S cantarell-fonts --noconfirm --needed
 sudo pacman -S noto-fonts --noconfirm --needed
