@@ -134,7 +134,7 @@ trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 trizen -S --noconfirm --needed --noedit inxi-git
 trizen -S --noconfirm --needed --noedit qjournalctl 
 
-#sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
+sudo /usr/bin/vnclicense -add EQAU7-UHKVF-BZT2T-PQDWL-P6ARN
 
 #sh deepin_custom_setup.sh
 
