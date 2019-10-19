@@ -36,6 +36,12 @@ azalinux
 # pacman -S xdg-user-dirs
 # xdg-user-dirs-update
 # pacman -S grub
+
+#pacman -S efibootmgr
+#!!!! FOR UEFI create /efi partition - FAT32 - 512Mb
+#mkfs.fat -F32 /dev/sdb1
+#grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id=GRUB  #!!!!#
+
 # grub-install /dev/sda
 # grub-mkconfig -o /boot/grub/grub.cfg
 # pacman -S base-devel
