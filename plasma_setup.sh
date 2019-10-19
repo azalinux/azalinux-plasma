@@ -91,6 +91,7 @@ sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed ffmpegthumbnailer
 sudo pacman -S --noconfirm --needed grub-customizer 
 sudo pacman -S --noconfirm --needed wget
+sudo pacman -S --noconfirm --needed ipset
 sudo pacman -S --noconfirm --needed net-tools
 sudo pacman -S --noconfirm --needed htop
 sudo pacman -S --noconfirm --needed gtop
