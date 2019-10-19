@@ -95,6 +95,7 @@ sudo pacman -S --noconfirm --needed net-tools
 sudo pacman -S --noconfirm --needed htop
 sudo pacman -S --noconfirm --needed gtop
 sudo pacman -S --noconfirm --needed gparted
+sudo pacman -S --noconfirm --needed nomacs
 sudo pacman -S --noconfirm --needed simplescreenrecorder
 sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed atom
