@@ -12,7 +12,7 @@ sudo pacman -S --noconfirm --needed xorg
 sudo pacman -S --noconfirm --needed os-prober
 sudo pacman -S --noconfirm --needed openssh
 sudo systemctl enable sshd
-sudo pacman -S --noconfirm --needed dhcpcd
+#sudo pacman -S --noconfirm --needed dhcpcd
 sudo pacman -S --noconfirm --needed plasma-meta
 #pacman -S --noconfirm --needed kde-applications-meta
 
