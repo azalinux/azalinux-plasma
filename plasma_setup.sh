@@ -136,6 +136,7 @@ trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 #trizen -S --noconfirm --needed --noedit vlc-nightly
 trizen -S --noconfirm --needed --noedit inxi-git
 trizen -S --noconfirm --needed --noedit qjournalctl 
+trizen -S --noconfirm --needed --noedit etcher-bin
 
 sudo /usr/bin/vnclicense -add P98BK-34AF4-V2K63-TMBH8-BYNRA
 
