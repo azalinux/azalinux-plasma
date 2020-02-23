@@ -77,6 +77,7 @@ sudo pacman -S --noconfirm --needed kwrite
 sudo pacman -S --noconfirm --needed kde-gtk-config
 
 sudo pacman -S --noconfirm --needed baobab
+sudo pacman -S --noconfirm --needed bind-tools
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dmidecode
 sudo pacman -S --noconfirm --needed glances
