@@ -76,6 +76,8 @@ sudo pacman -S --noconfirm --needed konsole
 sudo pacman -S --noconfirm --needed kwrite
 sudo pacman -S --noconfirm --needed kde-gtk-config
 
+
+sudo pacman -S --noconfirm --needed smartmontools
 sudo pacman -S --noconfirm --needed baobab
 sudo pacman -S --noconfirm --needed bind-tools
 sudo pacman -S --noconfirm --needed curl
