@@ -16,6 +16,12 @@ sudo systemctl enable sshd
 sudo pacman -S --noconfirm --needed plasma-meta
 #pacman -S --noconfirm --needed kde-applications-meta
 
+#VA-API on Radeon HD 2000 and newer GPUs is supported by libva-mesa-driver.
+sudo pacman -S --noconfirm --needed libva-mesa-driver
+
+#VDPAU on Radeon R300 and newer GPUs is supported by mesa-vdpau.
+#sudo pacman -S --noconfirm --needed mesa-vdpau
+
 sudo pacman -S --noconfirm --needed firewalld
 sudo pacman -S pulseaudio --noconfirm --needed
 sudo pacman -S pulseaudio-alsa --noconfirm --needed
