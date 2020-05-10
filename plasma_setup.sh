@@ -120,7 +120,7 @@ sudo pacman -S --noconfirm --needed neofetch
 #sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed libreoffice-fresh
 sudo pacman -S --noconfirm --needed mpv
-sudo pacman -S --noconfirm --needed p7zip
+
 sudo pacman -S --noconfirm --needed nfs-utils
 
 sh sddm.sh
