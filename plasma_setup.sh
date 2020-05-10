@@ -81,7 +81,7 @@ sudo pacman -S --noconfirm --needed khelpcenter
 sudo pacman -S --noconfirm --needed konsole
 sudo pacman -S --noconfirm --needed kwrite
 sudo pacman -S --noconfirm --needed kde-gtk-config
-
+sudo pacman -S --noconfirm --needed p7zip
 sudo pacman -S --noconfirm --needed flameshot
 sudo pacman -S --noconfirm --needed smartmontools
 sudo pacman -S --noconfirm --needed baobab
