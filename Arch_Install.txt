@@ -8,7 +8,7 @@ ARCH 2019 install commands:
 # mkswap /dev/sda2 
 # swapon /dev/sda2
 # mount /dev/sda1 /mnt
-# pacstrap /mnt base linux linux-firmware
+# pacstrap /mnt base base-devel linux linux-firmware
 # genfstab -U /mnt >> /mnt/etc/fstab
 # arch-chroot /mnt
 ########      setup2.sh     ##############
@@ -47,8 +47,7 @@ mount /dev/sda1 /efi
 
 # grub-install /dev/sda
 # grub-mkconfig -o /boot/grub/grub.cfg
-# pacman -S base-devel
-# pacman -S vim
+# pacman -S vi
 # pacman -S dhcpcd [needs to be enabled too!]
 
 # visudo [uncomment "Wheel root access"] {to save type    :wq }
